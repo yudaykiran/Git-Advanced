@@ -2,6 +2,20 @@ git config --global core.editor code
 
 git log — See all commit history. Can also be used for a file with git log -p my_file. Enter q to exit.
 
+git log --oneline
+
+git commit -m
+
+git commit -s
+
+git commit --amend
+
+git commit --amend -m
+
+git rebase -i [pick, drop, squash, fixup]
+
+
+
 git blame my_file— See who changed what and when in my_file.
 
 git reflog — Show a log of changes to the local repository’s HEAD. Good for finding lost work.
